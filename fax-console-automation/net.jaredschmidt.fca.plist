@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>net.jaredschmidt.fca</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/python3</string>
+        <string>/Users/*********/Source/Repo/fax-console/fca/fca.py</string>
+    </array>
+    <key>StartInterval</key><!-- Run every 3 minutes -->
+    <integer>180</integer><!-- seconds -->
+    <key>StandardOutPath</key>
+    <string>/Users/*********/Source/Repo/fax-console/fca/log/fca-launchctl-info.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/*********/Source/Repo/fax-console/fca/log/fca-launchctl-error.log</string>
+</dict>
+</plist>

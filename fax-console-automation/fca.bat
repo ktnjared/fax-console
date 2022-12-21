@@ -1,0 +1,1 @@
+start "%HOMEPATH%\AppData\Local\Programs\Python\Python37\python3.exe" "%HOMEPATH%\Source\Repo\fax-console\fca\fca.py"
